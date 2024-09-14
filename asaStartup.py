@@ -5,7 +5,7 @@ while True:
     input("-=-Press any key to run script-=-") 
 
     #list of commands to run in ASA console
-    commands = ['r.VolumetricCloud 0', 'r.VolumetricFog 0', 'r.Water.SingleLayer.Reflection 0', 'r.DistanceFieldShadowing 1']
+    commands = ['r.VolumetricCloud 0', 'r.VolumetricFog 0', 'r.Water.SingleLayer.Reflection 0', 'r.DistanceFieldShadowing 1', 'grass.sizeScale .33']
 
     #loop through commands list, entering specified commands/values into in-game console one by one
     for i in commands:
